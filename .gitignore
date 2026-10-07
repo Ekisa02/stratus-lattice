@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+.venv/*
+venv/
+.idea/
+.vscode/
+dist/
+build/
+*.egg-info/
+.python-version
+.env
+*.log
+*.sqlite3
+__pycache__/
+pytest_cache/
+.envrc
+*.pt
+*.pth
+
+# Docker
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/

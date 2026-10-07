@@ -1,0 +1,10 @@
+{
+  "name": "stratus-lattice-client",
+  "version": "0.0.1",
+  "description": "Small helper package for demo clients",
+  "main": "examples/client.py",
+  "scripts": {
+    "start": "python examples/client.py"
+  },
+  "license": "MIT"
+}

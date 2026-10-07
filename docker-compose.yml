@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  node1:
+    build: .
+    environment:
+      - STRATUS_NODE_NAME=node-1
+      - STRATUS_PEERS=node-2:8000
+    ports:
+      - "8000:8000"
+  node2:
+    build: .
+    environment:
+      - STRATUS_NODE_NAME=node-2
+      - STRATUS_PEERS=node-1:8000
+    ports:
+      - "8001:8000"
